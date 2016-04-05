@@ -9,29 +9,41 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.radek.wydatex.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello Worldj!"
-        android:id="@+id/textView" />
-
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
 
-        <TextClock
-            android:layout_width="116dp"
-            android:layout_height="210dp"
-            android:id="@+id/textClock"
-            android:layout_gravity="center_horizontal|top" />
-
-        <AnalogClock
+        <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/analogClock"
-            android:layout_gravity="center" />
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/textView2"
+            android:layout_gravity="left|top" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="left|center_vertical" />
+
+        <EditText
+            android:layout_width="108dp"
+            android:layout_height="164dp"
+            android:id="@+id/editText2"
+            android:layout_gravity="left|bottom" />
+
     </FrameLayout>
 </RelativeLayout>
