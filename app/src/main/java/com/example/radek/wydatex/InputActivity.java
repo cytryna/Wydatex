@@ -19,7 +19,7 @@ public class InputActivity extends Activity {
 
         ok.setOnClickListener(new View.OnClickListener() {
 
-
+//komentarz
 
             @Override
             public void onClick(View v) {
